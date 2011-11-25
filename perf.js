@@ -13,6 +13,7 @@
   Bench = (function() {
     function Bench() {
       this.output = $('#benchResults');
+      this.output.text("");
     }
     Bench.prototype.runSync = function(tested) {
       var bench, mean, results, sample_size;

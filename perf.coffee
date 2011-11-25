@@ -12,6 +12,7 @@ class Bench
 
   constructor: ->
     @output = $('#benchResults')
+    @output.text ""
 
   runSync: (tested) ->
     bench = new Benchmark('aes-test', tested, {maxTime: 20})
