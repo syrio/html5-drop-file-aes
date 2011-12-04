@@ -33,7 +33,7 @@ class FileHandler
     # Create a new queue.
     queue = $.jqmq
 
-      # Queue items will be processed every 50 milliseconds.
+      # Queue items will be processed on after another
       delay: -1,
 
       # Process queue items one-at-a-time.
